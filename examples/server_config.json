@@ -1,0 +1,56 @@
+{
+    "name": "My DST Server",
+    "description": "A customized Don't Starve Together server",
+    "game_mode": "survival",
+    "max_players": 6,
+    "pvp": false,
+    "pause_when_empty": true,
+    "password": "optional_password",
+    "server_port": 10999,
+    "master_server_port": 27018,
+    "authentication_port": 8768,
+    "world_preset": "endless",
+    "world_overrides": {
+        "overworld": {
+            "season_start": "autumn",
+            "world_size": "huge",
+            "branching": "most",
+            "loop": "default",
+            "autumn": "very_long",
+            "winter": "very_long",
+            "spring": "very_long",
+            "summer": "very_long",
+            "day": "long",
+            "resources": "plenty",
+            "unpredictable": "never"
+        },
+        "caves": {
+            "season_start": "autumn",
+            "world_size": "huge",
+            "branching": "most",
+            "loop": "default",
+            "day": "long",
+            "resources": "plenty",
+            "unpredictable": "never"
+        }
+    },
+    "mods": {
+        "378160973": {
+            "enabled": true,
+            "configuration_options": {
+                "ENABLEPINGS": true,
+                "FIREOPTIONS": 2,
+                "SHAREMINIMAPPROGRESS": true,
+                "SHOWFIREICONS": true,
+                "SHOWPLAYERICONS": true,
+                "SHOWPLAYERSOPTIONS": 2
+            }
+        },
+        "374550642": {
+            "enabled": true,
+            "configuration_options": {
+                "MAXSTACKSIZE": 99
+            }
+        }
+    }
+}
